@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>Dancesport Club at UCLA</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -9,6 +9,10 @@
 <style>
 body {font-family: "Lato", sans-serif}
 .mySlides {display: none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+.slideImg {width:100%;height:auto;}
+.profile {width:60%;box-shadow:3px 3px 10px grey;}
 </style>
 <body>
 
@@ -18,63 +22,124 @@ body {font-family: "Lato", sans-serif}
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
     <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="#schedule" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SCHEDULE</a>
     <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
 
     <!-- More + drop down menu -->
-<!--     <div class="w3-dropdown-hover w3-hide-small">
+    <div class="w3-dropdown-hover w3-hide-small">
       <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#" class="w3-bar-item w3-button">Merchandise</a>
-        <a href="#" class="w3-bar-item w3-button">Extras</a>
-        <a href="#" class="w3-bar-item w3-button">Media</a>
-      </div> -->
+        <a href="faqs.html" class="w3-bar-item w3-button">FAQs</a>
+        <!-- <a href="#" class="w3-bar-item w3-button">Past Competitions</a> -->
+        <!-- <a href="#" class="w3-bar-item w3-button">Media</a> -->
+      </div>
     </div>
-    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+<!--     <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a> -->
   </div>
 </div>
 
 <!-- Navbar on small screens -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#band" class="w3-bar-item w3-button w3-padding-large">BAND</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
   <a href="#about" class="w3-bar-item w3-button w3-padding-large">ABOUT</a>
+  <a href="#schedule" class="w3-bar-item w3-button w3-padding-large">SCHEDULE</a>
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large">CONTACT</a>
-  <a href="#" class="w3-bar-item w3-button w3-padding-large">MERCH</a>
+  <a href="faqs.html" class="w3-bar-item w3-button w3-padding-large">FAQs</a>
 </div>
 
 <!-- Page content -->
-<div class="w3-content" style="max-width:2000px;margin-top:46px">
+  <div class="w3-content" style="max-width:2000px;margin-top:46px">
 
-  <!-- Automatic Slideshow Images -->
-  <div class="mySlides w3-display-container w3-center">
-    <img src="la.jpg" style="width:100%">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h3>Los Angeles</h3>
-      <p><b>We had the best time playing at Venice Beach!</b></p>   
+    <!-- Automatic Slideshow Images -->
+    <div class="mySlides w3-display-container w3-center">
+      <img src="Synergy_Showcase/DSC_0388.jpg" class="slideImg">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+<!--         <h3>Caption Title</h3>
+        <p><b>Caption</b></p>     -->
+      </div>
     </div>
-  </div>
-  <div class="mySlides w3-display-container w3-center">
-    <img src="ny.jpg" style="width:100%">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h3>New York</h3>
-      <p><b>The atmosphere in New York is lorem ipsum.</b></p>    
+<!--     <div class="mySlides w3-display-container w3-center">
+      <img src="Synergy_Showcase/DSC_0649.jpg" class="slideImg">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <h3>Caption Title</h3>
+        <p><b>Caption</b></p>    
+      </div>
+    </div> -->
+    <div class="mySlides w3-display-container w3-center">
+      <img src="Synergy_Showcase/DSC_0444.jpg" class="slideImg">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+<!--         <h3>Caption Title</h3>
+        <p><b>Caption</b></p>   -->  
+      </div>
+    </div>  
+    <div class="mySlides w3-display-container w3-center">
+      <img src="Synergy_Showcase/thegirls.jpg" class="slideImg">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+<!--         <h3>Caption Title</h3>
+        <p><b>Caption</b></p>   -->  
+      </div>  
+    </div>      
+    <div class="mySlides w3-display-container w3-center">
+      <img src="Synergy_Showcase/DSC_0463.jpg" class="slideImg">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+<!--         <h3>Caption Title</h3>
+        <p><b>Caption</b></p>    --> 
+      </div>  
+    </div>  
+    <div class="mySlides w3-display-container w3-center">
+      <img src="DCU/_MG_6937.jpg" class="slideImg">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+<!--         <h3>Los Angeles</h3>
+        <p><b>We had the best time playing at Venice Beach!</b></p>    -->
+      </div>
     </div>
-  </div>
-  <div class="mySlides w3-display-container w3-center">
-    <img src="chicago.jpg" style="width:100%">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h3>Chicago</h3>
-      <p><b>Thank you, Chicago - A night we won't forget.</b></p>    
+    <div class="mySlides w3-display-container w3-center">
+      <img src="DCU/_MG_6860.jpg" class="slideImg">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+<!--         <h3>New York</h3>
+        <p><b>The atmosphere in New York is lorem ipsum.</b></p>     -->
+      </div>
     </div>
+    <div class="mySlides w3-display-container w3-center">
+      <img src="DCU/_MG_6981.jpg" class="slideImg">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+<!--         <h3>Chicago</h3>
+        <p><b>Thank you, Chicago - A night we won't forget.</b></p>     -->
+      </div>
+    </div>
+  </div>    
+
+
+  <!-- Slideshow Buttons -->
+
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-middle" style="width:100%">
+    <div class="w3-button w3-display-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-button w3-display-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+<!--<span class="w3-badge dot w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+    <span class="w3-badge dot w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+    <span class="w3-badge dot w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+    <span class="w3-badge dot w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+    <span class="w3-badge dot w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+    <span class="w3-badge dot w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
+    <span class="w3-badge dot w3-border w3-transparent w3-hover-white" onclick="currentDiv(7)"></span> -->
   </div>
 
   <!-- The ABOUT Section -->
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="about">
-    <h2 class="w3-wide">THE DANCERS</h2>
-    <p class="w3-opacity"><i>We love music</i></p>
-    <p class="w3-justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <div class="w3-row w3-padding-32">
+    <h2 class="w3-wide">THE DANCES</h2>
+    <p class="w3-opacity"><i>Competitive Ballroom and Latin Dance </i> </p> 
+    <p class="w3-justify">The Dancesport Club at UCLA is the home of dancesport at UCLA. Dancesport is competitive Ballroom and Latin dancing. We are a registered Student Organization with SOLE at University of California, Los Angeles.  As a team we represent UCLA at regional competitions from San Diego to San Francisco and Arizona to the ocean. No experience or partner is required to join us! We are open to everyone. Dancesport is broken down into two main styles: International Ballroom and International Latin dance. </p>
+
+    <h5 class="w3-left-align"><u>International Ballroom</u></h5><p class="w3-justify"> Originating in European countries of England and Austria, as well as the underground of Argentina, this style is the classic Ballroom you may have seen in such movies as <i>Anastasia</i> or <i>Harry Potter</i>. Smoother and classier than Latin, Ballroom consists of Waltz, Tango, Viennese Waltz, Slow Foxtrot and Quickstep.</p>
+    <p class="w3-justify"> In your first quarter with DCU, Beginning Standard (Fridays at 7:30) introduces members to Waltz and Quickstep, the easiest dancest to compete as a beginner, both taught from the very very beginning. </p>
+    <p class="w3-justify"> Intermediate Ballroom (Saturdays at 2:00) is intended for dancers with at least 6 months of Dancesport experience and will focus on expanding the Bronze syllabus in all 5 dances with a special emphasis on techniques and an intermediate level of competition readiness. </p>
+    <p class="w3-justify"> Standard Drills (Saturdays at 1:00) provides special training in the techniques and body movements that make Ballroom so precise. Designed for those who have completed at least 3 months of Beginning Ballroom.
+    </p>
+    <h5 class="w3-left-align"><u> International Latin </u></h5><p class="w3-justify"> Originating in the Latin American countries of Brazil and Argentina, this style has been formulated and codified into the Latin dance style competed today, which you may recognize from <i>Dirty Dancing</i> or <i>Dancing with the Stars</i>. Recognizable for its sensual hip action and upbeat music, this style is divided into 5 dances: Cha Cha, Samba, Rumba, Paso Doble and Jive.</p>
+    <p class="w3-justify"> In your first quarter at DCU, Beginning Latin (Fridays at 6:30) will cover Cha Cha and Rumba, the easiest dances to try as a complete beginner and will teach them from the very basics.</p>
+    <p class="w3-justify"> Intermediate Latin  (Fridays at 5:30)  is designed for dancers with at least 6 months of Dancesport experience and will focus on expanding the Bronze syllabus for all 5 dances to allow dancers a more expansive repertoire of movement for competition as well as focusing on techniques and strategies that will be vital for victory at competition.</p>
+    <p class="w3-justify"> Latin Partnering (Saturdays at 3:00) allows all levels of dance partnership to get more specific training in the intricacies of dancesport partnering for Latin. This is the ONLY course for which a dance partner is required for all class sessions. </p>
+<!--     <div class="w3-row w3-padding-32">
       <div class="w3-third">
         <p>Name</p>
         <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
@@ -87,175 +152,187 @@ body {font-family: "Lato", sans-serif}
         <p>Name</p>
         <img src="/w3images/bandmember.jpg" class="w3-round" alt="Random Name" style="width:60%">
       </div>
-    </div>
+    </div> -->
+  </div>
   </div>
 
-  <!-- The Tour Section -->
-<!--   <div class="w3-black" id="tour">
-    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
-      <h2 class="w3-wide w3-center">ABOUT</h2>
-      <p class="w3-opacity w3-center"><i>Remember to book your tickets!</i></p><br>
-
-      <ul class="w3-ul w3-border w3-white w3-text-grey">
-        <li class="w3-padding">September <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
-        <li class="w3-padding">October <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
-        <li class="w3-padding">November <span class="w3-badge w3-right w3-margin-right">3</span></li>
-      </ul>
-
-      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
-        <div class="w3-third w3-margin-bottom">
-          <img src="/w3images/newyork.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <p><b>New York</b></p>
-            <p class="w3-opacity">Fri 27 Nov 2016</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
-          </div>
-        </div>
-        <div class="w3-third w3-margin-bottom">
-          <img src="/w3images/paris.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <p><b>Paris</b></p>
-            <p class="w3-opacity">Sat 28 Nov 2016</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
-          </div>
-        </div>
-        <div class="w3-third w3-margin-bottom">
-          <img src="/w3images/sanfran.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <p><b>San Francisco</b></p>
-            <p class="w3-opacity">Sun 29 Nov 2016</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
-          </div>
-        </div>
+  <!-- The Schedule Section -->
+  <div class="w3-black" id="schedule">
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="schedule">
+    <h2 class="w3-wide">THE SCHEDULE</h2>
+    <!-- <p class="w3-opacity"><i>We love music</i></p> -->
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <h5>FRIDAY</h5>
+        <p class="w3-left-align" style="margin-left:20px"> 5:30 pm Intermediate Latin
+          <br> 6:30 pm Beginning Latin
+          <br> 7:30 pm Beginning Standard
+          <br> 8:30 pm Practice Party </br>
+        <i class="fa fa-map-marker" style="width:20px;margin-top:20px"></i>5:00-7:30 pm JWC Gold Room<br>   
+        <i class="fa fa-map-marker" style="width:20px;margin-top:20px"></i>7:30-10:30 pm JWC Pyramid Room<br>      
+        </p>
+      </div>
+      <div class="w3-third">
+        <h5>SATURDAY</h5>
+        <p class="w3-left-align" style="margin-left:40px"> 1:00 pm Intermediate Standard
+        <br> 2:00 pm Standard Drills
+        <br> 3:00 pm Latin Partnering
+        <br> 4:00 pm Open Practice </br>
+        <i class="fa fa-map-marker" style="width:20px;margin-top:20px"></i>JWC Dynasty Room<br>        
+        </p>
+      </div>
+      <div class="w3-third">
+        <h5>SUNDAY</h5>
+        <p class="w3-left-align" style="margin-left:55px"> 1:30 pm Standard Review
+        <br> 2:00 pm Latin Review
+        <br> 2:30 pm Open Practice </br>
+        <i class="fa fa-map-marker" style="width:20px;margin-top:42px"></i>JWC Dynasty Room<br>        
+        </p>
       </div>
     </div>
-  </div> -->
-
-  <!-- Ticket Modal -->
-<!--   <div id="ticketModal" class="w3-modal">
-    <div class="w3-modal-content w3-animate-top w3-card-4">
-      <header class="w3-container w3-teal w3-center w3-padding-32"> 
-        <span onclick="document.getElementById('ticketModal').style.display='none'" 
-       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
-        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
-      </header>
-      <div class="w3-container">
-        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
-        <input class="w3-input w3-border" type="text" placeholder="How many?">
-        <p><label><i class="fa fa-user"></i> Send To</label></p>
-        <input class="w3-input w3-border" type="text" placeholder="Enter email">
-        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
-        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
-        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
-      </div>
-    </div>
-  </div> -->
+  </div>
+</div>
 
   <!-- The Contact Section -->
-  <div class="w3-black" id="contact">
-  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
-    <h2 class="w3-wide w3-center">OFFICERS</h2>
-    <p class="w3-opacity w3-center">Have questions? Contact us!</p>
+  <!-- <div class="w3-black" id="contact"> -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">THE OFFICERS</h2>
+    <p class="w3-opacity w3-center">
+          Have questions? Contact us!<br>
+          <i class="fa fa-envelope" style="width:20px"> </i> dancesport@ucla.edu<br>
+    </p>
+
     <div class="w3-row w3-padding-32">
-      <div class="w3-col m6 w3-large w3-margin-bottom">
-        <!-- <i class="fa fa-map-marker" style="width:30px"></i> Los Angeles, US<br> -->
-        <!-- <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br> -->
-        <!-- <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br> -->
-      </div>
-
-      <div class="w3-row w3-padding-32">
       <div class="w3-third">
-        <p>Taylor</p>
-        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="President" style="width:60%">
-        <p><i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br></p>
+        <p>President
+         <br>Taylor Daymude</br>
+        </p>
+        <img src="Profiles/taylor.jpg" class="profile w3-round w3-margin-bottom" alt="President">
       </div>
       <div class="w3-third">
-        <p>Name</p>
-        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
-        <p><i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br></p>
+        <p>Vice President
+         <br>Vivian Delchamps</br>
+        </p>
+        <img src="Profiles/vivian.jpg" class="profile w3-round w3-margin-bottom" alt="VP">
       </div>
       <div class="w3-third">
-        <p>Name</p>
-        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
-        <p><i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br></p>
+        <p>Communications
+         <br>Bailey Loverin</br>
+        </p>
+        <img src="Profiles/bailey.jpg" class="profile w3-round w3-margin-bottom" alt="Communications">
       </div>
-    </div>
-
-      <!-- This is the email form -->
-<!--       <div class="w3-col m6">
-        <form action="/action_page.php" target="_blank">
-          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-            </div>
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-            </div>
-          </div>
-          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
-        </form>
-      </div> -->
+      <div class="w3-third">
+        <p>Comp Coordinator
+         <br>Alexander Peter</br>
+        </p>
+        <!-- <div class="w3-left-align"> -->
+        <img src="Profiles/alexander.jpg" class="profile w3-round w3-margin-bottom" alt="Team director"> 
+        <!-- </div> -->
+      </div>            
+      <div class="w3-third">
+        <p>Fundraising
+         <br>Hetvi Doshi, Shatakshi Mohan</br>
+        </p>
+        <!-- <div class="w3-left-align">  -->
+        <img src="Profiles/hetvi.jpg" class="profile w3-round w3-margin-bottom" alt="Fundraising" style=>
+        <!-- </div> -->
+        <!-- <div class="w3-right-align"> <img src="Profiles/shatakshi.jpg" class="w3-round w3-margin-bottom" alt="Fundraising" style="width:60%"></div> -->
+      </div>                
+      <div class="w3-third">
+        <p>Performance Team Director
+         <br>Caroline DeFranco</br>
+        </p>
+        <!-- <div class="w3-right-align"> -->
+        <img src="Profiles/caroline.jpg" class="profile w3-round w3-margin-bottom" alt="Team director"> 
+        <!-- </div> -->
+      </div>             
+      <div class="w3-third">
+        <p>Recruitment
+         <br>Taylor Daymude</br>
+        </p>
+        <img src="Profiles/taylor.jpg" class="profile w3-round w3-margin-bottom" alt="Recruitment">
+      </div>        
+      <div class="w3-third">
+        <p>Secretary
+         <br>Caroline DeFranco</br>
+        </p>
+        <img src="Profiles/caroline.jpg" class="profile w3-round w3-margin-bottom" alt="Secretary">
+      </div>
+      <div class="w3-third">
+        <p>Social Events
+         <br>Hetvi Doshi, Shawn Recinos</br>
+        </p>
+        <img src="Profiles/hetvi.jpg" class="profile w3-round w3-margin-bottom" alt="Team director">
+      </div>            
+      <div class="w3-third">
+        <p>Team Captain
+         <br>Reana Naik</br>
+        </p>
+        <img src="Profiles/reana.jpg" class="profile w3-round w3-margin-bottom" alt="Webmaster">
+      </div>             
+      <div class="w3-third">
+        <p>Treasurer
+         <br>Shawn Recinos</br>
+        </p>
+        <img src="Profiles/shawn.jpg" class="profile w3-round w3-margin-bottom" alt="Treasurer">
+      </div>        
+      <div class="w3-third">
+        <p>Webmaster
+         <br>Alexander Peter</br>
+        </p>
+        <img src="Profiles/alexander.jpg" class="profile w3-round w3-margin-bottom" alt="Webmaster">
+      </div>                        
     </div>
   </div>
-  </div>
+  <!-- </div> -->
   
 <!-- End Page Content -->
 </div>
 
-<!-- Add Google Maps -->
-<!-- <div id="googleMap" style="height:400px;" class="w3-grayscale-max"></div>
-<script>
-function myMap() {
-  myCenter=new google.maps.LatLng(41.878114, -87.629798);
-  var mapOptions= {
-    center:myCenter,
-    zoom:12, scrollwheel: false, draggable: false,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
-
-  var marker = new google.maps.Marker({
-    position: myCenter,
-  });
-  marker.setMap(map);
-}
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script> -->
-<!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
-
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <a href="https://www.facebook.com/dancesportucla/" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  <a href="https://www.instagram.com/dancesportclubucla/?hl=en" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <!-- <i class="fa fa-snapchat w3-hover-opacity"></i> -->
+  <!-- <i class="fa fa-pinterest-p w3-hover-opacity"></i> -->
+  <!-- <i class="fa fa-twitter w3-hover-opacity"></i> -->
+  <!-- <i class="fa fa-linkedin w3-hover-opacity"></i> -->
   <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  <p class="w3-medium">Assembled by <a href="http://mtran26.bol.ucla.edu" target="_blank">Michelle Tran </a>
+  <br>2017
+  </p>
 </footer>
 
 <script>
-// Automatic Slideshow - change image every 4 seconds
-var myIndex = 0;
-carousel();
+// Automatic Slideshow with manual - change image every 3 seconds
+var slideIndex = 1;
+var timeout; 
+showDivs(slideIndex);
 
 function carousel() {
+    showDivs(slideIndex+=1)
+}
+
+function plusDivs(n) {
+    clearTimeout(timeout);
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
     var i;
     var x = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > x.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = x.length}
     for (i = 0; i < x.length; i++) {
        x[i].style.display = "none";  
     }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 4000);    
+    // for (i = 0; i < dots.length; i++) {
+    //    dots[i].className = dots[i].className.replace(" w3-white", "");
+    // }
+    x[slideIndex-1].style.display = "block";  
+    // dots[slideIndex-1].className += "w3-white";
+    timeout = setTimeout(carousel, 4000);
 }
 
 // Used to toggle the menu on small screens when clicking on the menu button
@@ -266,14 +343,6 @@ function myFunction() {
     } else { 
         x.className = x.className.replace(" w3-show", "");
     }
-}
-
-// When the user clicks anywhere outside of the modal, close it
-var modal = document.getElementById('ticketModal');
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
 }
 </script>
 
